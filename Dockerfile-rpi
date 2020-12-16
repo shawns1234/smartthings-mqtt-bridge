@@ -19,7 +19,7 @@ VOLUME /config
 ENV CONFIG_DIR=/config
 
 # Expose the web service port
-EXPOSE 8080
+EXPOSE 8888
 
 # Run the service
 CMD [ "npm", "start" ]
